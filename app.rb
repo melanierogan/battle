@@ -1,12 +1,11 @@
 require 'sinatra/base'
 
 
-class MyApp < Sinatra::Application
+class MyApp < Sinatra::Base
 
-  configure do
-    enable :sessions
-  end
-  
+  set :session_secret, 'super'
+
+  enable :sessions
   
   get '/' do
     erb(:index)
