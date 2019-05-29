@@ -24,8 +24,9 @@ html, body {
   h2 { font-size: 2em; }
   h3 { font-size: 1.5em ; }
   p {font-size: 1.0em; }
-  button-style {
-    font-size: 2em;
+  
+  button-area {
+    padding: 40px 20px;
   }
 
   input[type=text] {
@@ -45,4 +46,5 @@ html, body {
     margin: 4px 2px;
     font-size: 1.0em;
     cursor: pointer;
+    border-radius: 5px;
   }
